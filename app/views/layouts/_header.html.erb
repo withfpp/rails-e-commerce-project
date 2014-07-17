@@ -22,6 +22,7 @@
       <ul class="nav navbar-nav navbar-right">
 
         <% if user_signed_in? %>
+          <li><%= link_to 'Sell New Product', new_listing_path , class: "sell" %> </li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Seller Account <span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">

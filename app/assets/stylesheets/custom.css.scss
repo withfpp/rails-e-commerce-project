@@ -73,14 +73,26 @@
 	margin:0 auto;
 }
 
-div.row.t-center img {
-	width:200px;
-	height:200px;
-}
+
 
 .table-hover > tbody > tr > td, .table-hover > tbody > tr > th {
 	text-align: center;
 }
+
+a.sell {
+	background-color: #434643;
+}
+
+div.imgfit {
+	max-width:100% !important;
+    height:auto;
+    display:block;
+}
+div.row.t-center img {
+	height:200px;
+	width:100%;
+}
+
 
 footer {
 	margin: 0 auto;
