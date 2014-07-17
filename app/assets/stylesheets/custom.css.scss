@@ -1,32 +1,33 @@
 @import "bootstrap";
+@import "boot.css.scss";
 @import url(http://fonts.googleapis.com/css?family=Roboto|Oswald);
 
-body {
-	background-color: #f2f2f6;
-	color: #b5bdc1;
-	font-family: 'Roboto', sans-serif;
-}
+// body {
+// 	background-color: #f2f2f6;
+// 	color: #353e45;
+// 	font-family: 'Roboto', sans-serif;
+// }
 
-.navbar-default{
-	background-color: #353e45;
-}
+// .navbar-default{
+// 	background-color: #353e45;
+// }
 
-.navbar-default .navbar-brand {
-	font-family: 'Oswald', sans-serif;
-	font-weight: bold;
-	color: #ffffff;
-	font-size: 28px;
-}
-.navbar-default .navbar-brand:hover{
-	color: #f6cc68;
-}
+// .navbar-default .navbar-brand {
+// 	font-family: 'Oswald', sans-serif;
+// 	font-weight: bold;
+// 	color: #ffffff;
+// 	font-size: 28px;
+// }
+// .navbar-default .navbar-brand:hover{
+// 	color: #f6cc68;
+// }
 
-.navbar-default .navbar-nav > li > a {
-	font-family: 'Roboto', sans-serif;
-	font-size: 15px;
-	font-weight: bold;
-	color: #717f86;
-}
+// .navbar-default .navbar-nav > li > a {
+// 	font-family: 'Roboto', sans-serif;
+// 	font-size: 15px;
+// 	font-weight: bold;
+// 	color: #717f86;
+// }
 
 .t-center{
 	text-align:center;
@@ -47,22 +48,47 @@ body {
 		font-size: 18px;
 	}
 }
-
+.container {
+	min-height:700px;
+}
 .small-thumb{
 	width:50px;
 	height:50px;
 }
 
 .jumbotron {
-	background-image: url("http://cdn01.wallconvert.com/_media/wallpapers_1280x800/1/2/shopping-11645.jpg");
-	background-size: cover;
-	background-position: 50% 50%;	
+	background-image: url("http://cdn.backgroundhost.com/backgrounds/subtlepatterns/concrete_wall_2.png") ;
+	h1 {
+		font-family: 'oswald', sans-serif;
+	}
 }
+
 
 .table > tbody > tr > td {
 	vertical-align:middle !important;
 }
 
+.inner-container{
+	width:50%;
+	margin:0 auto;
+}
 
+div.row.t-center img {
+	width:200px;
+	height:200px;
+}
+
+.table-hover > tbody > tr > td, .table-hover > tbody > tr > th {
+	text-align: center;
+}
+
+footer {
+	margin: 0 auto;
+	text-align: center;
+	background-color: #4A4A4A;
+	color:white;
+	font-size:16px;
+	line-height:30px;
+}
 
 
