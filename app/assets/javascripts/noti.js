@@ -95,6 +95,3 @@
 		}
 	})( jQuery );
 
-$(document).ready(function() {
-	 $.sticky('<p>Hi, I\'m Teo Kim</p><p>Welocme to my Rails APP! </p><p>thank you for visiting.</p><p>Have a good day :)</p><br />');
- });
