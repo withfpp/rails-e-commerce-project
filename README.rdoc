@@ -2,7 +2,7 @@
 
 This is personal ruby on rails e-commerce project.
 
-sign up, sign in, sell products, buy a products.
+sign up, sign in, sell products, buy products.
 
 Rails 4, responsive with Bootstrap, sass
 
